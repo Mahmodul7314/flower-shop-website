@@ -50,6 +50,118 @@ body{font-family: 'Open Sans', sans-serif;}
     color: #FFF;
     border-style: none;
     font-size:14px;
-     margin-top: 10px;
+     margin-top:80px;
+     margin-bottom: 20px;
 
 }
+
+/*feature section*/
+
+.feature-container{
+    height: 100vh;
+    margin-top: 100px;
+}
+
+
+.feature-title{
+    color: #272727;
+text-align: center;
+font-size: 26px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+margin-top: 40px;
+}
+.feature-description{
+    color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+margin-bottom: 10px;
+margin-top: 10px;
+}
+
+.card{height: 240px;
+width: 230px;
+padding: 20px;
+margin-top: 20px;
+margin-bottom:20px ;
+border-radius: 300px 300px 0px 0px;
+background: rgba(167, 33, 98, 0.15);
+text-align: center;
+}
+.feature-img{
+
+width:200px;
+height: 260px;
+margin-bottom: 20px;
+}
+.pic2 {
+    background: rgba(5, 151, 160, 0.15); 
+}
+.pic3{background: rgba(71, 125, 17, 0.15); }
+.feature-link{
+    color: #272727;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 35px;
+    text-decoration-line: underline;
+    margin-left:70px;
+   
+}
+.feature-card-sec{
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    align-items: center;
+}
+/*hot deal container8*/
+.hot-deal-container{
+    height: 50%;
+    background: rgba(229, 84, 115, 0.05);
+
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    padding:20px;
+    text-align: center;
+}
+.hot-deal-tex{
+
+}
+.hot-deal-title{
+    color: #272727;
+    font-size: 30px;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+}
+span{
+    color:#E55473;
+}
+.hot-deal-description{
+color: rgba(39, 39, 39, 0.60);
+text-align: center;
+
+font-size: 12px;
+font-weight: 400;
+line-height: 24px;
+width: 60%;
+margin: auto;
+margin-bottom: 20px;
+}
+.signupbutton{
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px 30px;
+    width: 100px;}
+
+.hot-deal-img{
+    height: 350px;
+    width: 260px;
+    margin-right: 30px;}
+    
+
