@@ -20,6 +20,7 @@ body{font-family: 'Open Sans', sans-serif;}
     padding: 30px 40px 0 40px;
     background-size: cover;
     background-repeat: no-repeat;
+    padding-bottom:0;
     
 }
 .header-text{
