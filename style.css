@@ -16,8 +16,11 @@ body{font-family: 'Open Sans', sans-serif;}
 }
 .header-pic{
     width:400px;
-    height: 550px;
-    padding: 30px 40px;
+    height: 570px;
+    padding: 30px 40px 0 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    
 }
 .header-text{
     padding: 20px;
@@ -50,7 +53,7 @@ body{font-family: 'Open Sans', sans-serif;}
     color: #FFF;
     border-style: none;
     font-size:14px;
-     margin-top:80px;
+     margin-top:35px;
      margin-bottom: 20px;
 
 }
@@ -129,9 +132,7 @@ margin-bottom: 20px;
     padding:20px;
     text-align: center;
 }
-.hot-deal-tex{
 
-}
 .hot-deal-title{
     color: #272727;
     font-size: 30px;
@@ -157,7 +158,7 @@ margin-bottom: 20px;
     text-align: center;
     margin-top: 20px;
     padding: 10px 30px;
-    width: 100px;}
+    width: 100px;} 
 
 .hot-deal-img{
     height: 350px;
@@ -174,7 +175,9 @@ margin-bottom: 20px;
     font-size: 30px;
     font-weight: 800;
     line-height: normal;
-    margin-top: 50px;}
+    margin-top: 50px;
+    margin-bottom: 8px;
+}
 
     .insta-description{
         color: rgba(39, 39, 39, 0.60);
@@ -241,7 +244,7 @@ margin: auto;
     background-repeat: no-repeat;
     background-size: cover;
    padding:10px;
-   margin-bottom: 70px;
+   margin-bottom: 80px;
    
 }
 
@@ -274,4 +277,47 @@ margin: auto;
 
 .btn3{width: 100px;
     margin: auto;
+}
+
+
+/*------footer style---*/
+
+.footer-section{  height: 350px;
+    background-color: #111010;
+    padding: 10px;
+    }
+
+.footer-container{
+text-align: center;
+padding-top: 120px;
+}
+.footer-title{
+    color: rgba(255, 255, 255, 0.90);
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+
+}
+
+.footer-para{color: rgba(255, 255, 255, 0.90);
+  
+    font-family: Lato;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+}
+
+.footer-para2{
+    color: rgba(255, 255, 255, 0.40);
+   
+    font-family: Lato;
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  
+   
+    
 }
