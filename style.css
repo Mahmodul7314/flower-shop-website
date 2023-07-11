@@ -58,7 +58,7 @@ body{font-family: 'Open Sans', sans-serif;}
 
 }
 
-/*feature section*/
+/*---------------feature section----------------*/
 
 .feature-container{
     height: 100vh;
@@ -121,7 +121,7 @@ margin-bottom: 20px;
     gap: 16px;
     align-items: center;
 }
-/*hot deal container8*/
+/*-------------hot deal container8---------------------*/
 .hot-deal-container{
     height: 50%;
     background: rgba(229, 84, 115, 0.05);
@@ -163,7 +163,41 @@ margin-bottom: 20px;
 .hot-deal-img{
     height: 350px;
     width: 260px;
-    margin-right: 30px;}
+    margin-right: 30px;
+}
+
+/*----------------Explore Containr--------*/
+.explore-container{
+height:60vh;
+background: url("Flower Asset/background2.jpg");
+opacity:0.9;
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center ;
+padding:20px;
+margin-top: 100px;
+margin-bottom: 100px;
+
+}
+.explore-text{
+padding: 20px;
+
+}
+
+.explore-title{
+    color: #4f4545;
+    font-weight: 700px;
+    font: size 12px;
+
+
+}
+.explore-title2{
+    color: #111010;
+    font-size: 35px;
+    padding-top:20px;
+}
+
+/*---------------Instagram-------*/
 
 .instagram-container{
     height: 650px;
@@ -234,7 +268,7 @@ width:85%;
 margin: auto;
 
 }
-
+/*---------------get latestcontainer--------*/
 .get-latest-container{
     height: 300px;
     width: 1055px;
